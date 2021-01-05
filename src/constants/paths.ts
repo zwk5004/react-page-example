@@ -1,0 +1,21 @@
+export const HOME = "/";
+export const ABOUT = "/about";
+export const ARCHIVES = "/archive";
+export const ARCHIVES_VIDEO = ARCHIVES.concat("/:name");
+export const VIRTUAL_VENUE = "/virtual-venue";
+export const LOGIN = "/login";
+export const FORGOT_PASSWORD = "/forgotPassword";
+export const RESET_PASSWORD = "/passwordReset";
+export const REGISTER = "/register";
+export const REGISTER_SUCCESS = REGISTER.concat("/success");
+export const REGISTER_CONFIRM = REGISTER.concat("/confirm");
+export const PROFILE = "/profile";
+export const ARTISTS = "/artists";
+export const STORE = "/store";
+
+export const ADMIN = "/admin";
+export const ADMIN_USER_MGMT = ADMIN.concat("/userMgmt");
+export const ADMIN_ADS = ADMIN.concat("/ads");
+export const ADMIN_CONTENT = ADMIN.concat("/content");
+export const ADMIN_CONTENT_EDIT = ADMIN_CONTENT.concat("/edit");
+export const ADMIN_SHOWS = ADMIN.concat("/shows");
